@@ -1,35 +1,5 @@
 <template>
   <div class="container">
-    <!-- <div class="left"> -->
-      <!-- <div class="projectName"> -->
-        <!-- 管理平台 -->
-        <!-- </div> -->
-      <!-- <el-menu default-active="1" class="el-menu-vertical-demo" > -->
-        <!-- <el-menu-item index="1">
-          <el-icon>
-            <location />
-          </el-icon>  
-          <template #title> <router-link to='/homePage'> 首页	</router-link>
-          </template>
-        </el-menu-item> -->
-        <!-- <el-menu-item index="2">
-          <el-icon><icon-menu /></el-icon>
-          <template #title> <router-link to='/view'> 看板	</router-link></template>
-        </el-menu-item>
-        <el-menu-item index="3" >
-          <el-icon>
-            <document />
-          </el-icon>
-          <template #title><router-link to='/userManger'> 用户管理	</router-link></template>
-        </el-menu-item>
-        <el-menu-item index="4">
-          <el-icon>
-            <setting />
-          </el-icon>
-          <template #title><router-link to='/goodsManger'> 商品管理	</router-link></template>
-        </el-menu-item> -->
-      <!-- </el-menu> -->
-    <!-- </div> -->
     <div class="right">
       <div class="top"> 
         top
@@ -43,13 +13,6 @@
 </template>
 
 <script lang="ts" setup>
-import {
-  Document,
-  Menu as IconMenu,
-  Location,
-  Setting,
-} from '@element-plus/icons-vue'
- 
 </script>
 
 <style>
@@ -59,21 +22,6 @@ import {
   background: rgb(228, 228, 228);
   display: flex;
   flex-wrap: nowrap;
-}
-.container  .projectName{
-height: 50px;
-text-align: center;
- line-height: 50px;
-background: #42b883;
-}
-.container  .el-menu-vertical-demo{
-  height:calc( 100% - 50px)
-}
-.container .left {
-  width: 20%;
-  max-width: 150px;
-  background: white;
-  /* border-right: 1px solid rgb(229 229 229); */
 }
 .container .right{
   width: 100%;

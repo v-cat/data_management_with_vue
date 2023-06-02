@@ -120,7 +120,7 @@ const changeSlide = (val) => {
    margin-right: 15px;
  }
  .demo-progress /deep/ .el-progress-circle .el-progress-circle__track{
-  stroke:  #d2d1d1
+  stroke:  #e4e7ed
  }
  .demo-progress /deep/ .el-progress-circle .el-progress-circle__path {
    stroke: url(#dismantle);
