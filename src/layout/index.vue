@@ -1,18 +1,18 @@
 <template>
   <div class="container">
-    <!-- <div class="left"> -->
-      <!-- <div class="projectName"> -->
-        <!-- 管理平台 -->
-        <!-- </div> -->
-      <!-- <el-menu default-active="1" class="el-menu-vertical-demo" > -->
-        <!-- <el-menu-item index="1">
+     <div class="left"> 
+       <div class="projectName"> 
+         管理平台 
+         </div> 
+       <el-menu default-active="1" class="el-menu-vertical-demo" > 
+         <el-menu-item index="1">
           <el-icon>
             <location />
           </el-icon>  
           <template #title> <router-link to='/homePage'> 首页	</router-link>
           </template>
-        </el-menu-item> -->
-        <!-- <el-menu-item index="2">
+        </el-menu-item> 
+         <el-menu-item index="2">
           <el-icon><icon-menu /></el-icon>
           <template #title> <router-link to='/view'> 看板	</router-link></template>
         </el-menu-item>
@@ -27,9 +27,9 @@
             <setting />
           </el-icon>
           <template #title><router-link to='/goodsManger'> 商品管理	</router-link></template>
-        </el-menu-item> -->
-      <!-- </el-menu> -->
-    <!-- </div> -->
+        </el-menu-item> 
+       </el-menu> 
+     </div> 
     <div class="right">
       <div class="top"> 
         top
@@ -77,6 +77,8 @@ background: #42b883;
 }
 .container .right{
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .container .right .top{
   width: 100%;  
@@ -90,7 +92,7 @@ background: #42b883;
 .container .right .main{
   padding: 40px;
   width: 100%;  
-  height: calc(100vh - 100px);
+  flex: 1;
   background: #f2fff6
 }
 .container .right .footer{
